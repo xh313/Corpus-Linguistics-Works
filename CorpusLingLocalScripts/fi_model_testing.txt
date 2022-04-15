@@ -1,0 +1,122 @@
+Model testing result log
+
+Controlled: 2000 data length 0.9:0.1 training:testing (randomised). From Turku Corpus.
+
+> NLTK NB with binary decision
+FI
+Try1
+Most Informative Features
+                  kiitos = True              pos : neg    =     18.7 : 1.0
+                  kaunis = True              pos : neg    =     14.9 : 1.0
+                      yö = True              pos : neg    =     10.9 : 1.0
+                     hei = True              pos : neg    =      8.9 : 1.0
+                    kiva = True              pos : neg    =      8.7 : 1.0
+                    ihme = True              neg : pos    =      7.7 : 1.0
+                 etukäsi = True              pos : neg    =      7.6 : 1.0
+             tyytyväinen = True              pos : neg    =      7.6 : 1.0
+                   synti = True              neg : pos    =      7.1 : 1.0
+                     com = True              pos : neg    =      6.9 : 1.0
+Accuracy of NB by nltk: 0.69
+
+Try2
+Most Informative Features
+                   hieno = True              pos : neg    =     20.8 : 1.0
+                  kiitos = True              pos : neg    =     17.4 : 1.0
+                  kaunis = True              pos : neg    =     14.9 : 1.0
+                   paska = True              neg : pos    =     13.8 : 1.0
+                      yö = True              pos : neg    =     11.6 : 1.0
+                    kiva = True              pos : neg    =     11.5 : 1.0
+                    ihme = True              neg : pos    =      9.7 : 1.0
+               commentsc = True              neg : pos    =      7.9 : 1.0
+                 etukäsi = True              pos : neg    =      7.6 : 1.0
+                    laki = True              neg : pos    =      7.1 : 1.0
+Accuracy of NB by nltk: 0.7025
+
+Try3
+Most Informative Features
+                   hieno = True              pos : neg    =     20.4 : 1.0
+                  kiitos = True              pos : neg    =     20.3 : 1.0
+                  kaunis = True              pos : neg    =     15.1 : 1.0
+                      yö = True              pos : neg    =     11.7 : 1.0
+                   paska = True              neg : pos    =     11.6 : 1.0
+                    ihme = True              neg : pos    =      9.6 : 1.0
+                   joulu = True              pos : neg    =      9.1 : 1.0
+                     hei = True              pos : neg    =      8.6 : 1.0
+                    kiva = True              pos : neg    =      8.4 : 1.0
+                 etukäsi = True              pos : neg    =      8.4 : 1.0
+Accuracy of NB by nltk: 0.68
+
+EN
+Try1
+Most Informative Features
+                   Thank = True              pos : neg    =     25.1 : 1.0
+                    Good = True              pos : neg    =     11.5 : 1.0
+                 anymore = True              neg : pos    =     10.9 : 1.0
+                    luck = True              pos : neg    =      8.4 : 1.0
+                   three = True              pos : neg    =      8.4 : 1.0
+               beautiful = True              pos : neg    =      7.8 : 1.0
+                      Or = True              neg : pos    =      7.6 : 1.0
+                   great = True              pos : neg    =      7.4 : 1.0
+                     Why = True              neg : pos    =      7.4 : 1.0
+                    evil = True              neg : pos    =      7.0 : 1.0
+Accuracy of NB by nltk: 0.75
+
+
+> NLTK NB with counting and proportions
+Try1
+Most Informative Features
+                  kiitos = 3                 pos : neg    =     18.5 : 1.0
+                    kiva = 1                 pos : neg    =     10.4 : 1.0
+                  kiitos = 1                 pos : neg    =     10.3 : 1.0
+                  kaikki = 2                 pos : neg    =      9.7 : 1.0
+                 vastaus = 2                 pos : neg    =      9.7 : 1.0
+                       d = 1                 pos : neg    =      7.1 : 1.0
+               kuitenkin = 1                 pos : neg    =      5.7 : 1.0
+                   lukea = 1                 pos : neg    =      5.7 : 1.0
+                      jo = 2                 pos : neg    =      5.7 : 1.0
+                   kyllä = 2                 pos : neg    =      5.7 : 1.0
+Accuracy of NB by nltk: 0.6275
+
+
+> Skl NB with binary decision
+Try1
+Accuracy of NB by skl: 0.6775
+
+
+> Skl NB with counting and proportions
+Try1
+Accuracy of NB by skl: 0.68
+
+
+> SVM with binary decision
+Try1
+Accuracy of NB by SVM: 0.675
+
+
+> SVM with counting and proportions
+Try1
+Accuracy of NB by SVM: 0.6875
+
+
+> Self-built NB post level
+Try1
+Positive recall:  0.465
+Negative recall:  0.995
+Total accuracy:  0.73
+
+Try2
+Positive recall:  0.435
+Negative recall:  0.99
+Total accuracy:  0.7125
+
+Try3
+Positive recall:  0.475
+Negative recall:  0.995
+Total accuracy:  0.735
+
+
+> Self built NB sentence level
+Try1
+Positive recall:  0.405
+Negative recall:  0.99
+Total accuracy:  0.6975

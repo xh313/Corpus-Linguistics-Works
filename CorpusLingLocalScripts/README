@@ -1,0 +1,4 @@
+Strip the language tag on pos and neg list filenames when it is actively in use.
+Otherwise, add the language tag so that the classifiers can find the correct files.
+
+Always do one sentence per line.
