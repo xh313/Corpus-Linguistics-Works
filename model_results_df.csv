@@ -1,0 +1,27 @@
+﻿model,subreddit,collection_date (M/D/Y),language,country,translated,try1,try2,try3,portion_positive
+NLTK NB,r/Suomi,4/6/22,Finnish,Finland,FALSE,0.703,0.703,0.739,0.715
+NLTK NB,r/Suomi,4/6/22,Finnish,Finland,TRUE,0.703,0.688,0.681,0.691
+NLTK NB,r/Finland,4/6/22,English,Finland,FALSE,0.818,0.836,,0.827
+SKL NB,r/Suomi,4/6/22,Finnish,Finland,FALSE,0.754,0.739,,0.746
+NLTK SVM,r/Suomi,4/6/22,Finnish,Finland,FALSE,0.594,0.572,,0.583
+Self-built NB,r/Suomi,4/6/22,Finnish,Finland,FALSE,0.241,0.227,,0.234
+NLTK NB,r/poland,4/26/22,English,Poland,FALSE,0.786,0.795,0.815,0.798
+NLTK NB,r/Brazil,4/27/22,English,Brazil,FALSE,0.789,0.813,0.783,0.795
+NLTK NB,r/Finland,4/27/22,English,Finland,FALSE,0.759,0.775,0.711,0.749
+NLTK NB,r/Turkey,4/27/22,English,Turkey,FALSE,0.858,0.884,0.853,0.865
+NLTK NB,r/China,4/27/22,English,China,FALSE,0.681,0.695,0.670,0.682
+NLTK NB,r/japan,4/27/22,English,Japan,FALSE,0.764,0.750,0.722,0.745
+NLTK NB,r/Thailand,4/27/22,English,Thailand,FALSE,0.775,0.787,0.719,0.760
+NLTK NB,r/spain,4/27/22,English,Spain,FALSE,0.937,0.937,0.952,0.942
+NLTK NB,r/southafrica,4/27/22,English,South Africa,FALSE,0.767,0.767,0.722,0.752
+NLTK NB,r/Norway,4/27/22,English,Norway,FALSE,0.779,0.779,0.769,0.776
+NLTK NB,r/Polska,4/27/22,Polish,Poland,TRUE,0.813,0.789,0.734,0.779
+NLTK NB,r/brasil,4/27/22,Portuguese,Brazil,TRUE,0.790,0.819,0.810,0.806
+NLTK NB,r/Suomi,4/27/22,Finnish,Finland,TRUE,0.754,0.781,0.754,0.763
+NLTK NB,r/Turkiye,4/27/22,Turkish,Turkey,TRUE,0.900,0.886,0.900,0.895
+NLTK NB,r/China_irl,4/27/22,Chinese,China,TRUE,0.742,0.730,0.675,0.715
+NLTK NB,r/ja,4/27/22,Japanese,Japan,TRUE,0.779,0.804,0.754,0.779
+NLTK NB,r/thaithai,4/27/22,Thai,Thailand,TRUE,0.869,0.860,0.847,0.859
+NLTK NB,r/es,4/27/22,Spanish,Spain,TRUE,0.926,0.936,0.936,0.933
+NLTK NB,r/RSA,4/27/22,English,South Africa,FALSE,0.903,0.903,0.919,0.909
+NLTK NB,r/norge,4/27/22,Norwegian,Norway,TRUE,0.817,0.824,0.840,0.827

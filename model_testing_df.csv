@@ -1,0 +1,9 @@
+model,language,strategy,avg_accuracy,accuracy1,accuracy2,accuracy3
+NLTK NB,Finnish,Qualitative,0.691,0.690,0.703,0.680
+NLTK NB,Finnish,Quantitative,0.628,,,
+SKL NB,Finnish,Qualitative,0.678,,,
+SKL NB,Finnish,Quantitative,0.680,,,
+NLTK SVM,Finnish,Qualitative,0.675,,,
+NLTK SVM,Finnish,Qualitative,0.688,,,
+Self-built NB,Finnish,Qualitative,0.726,0.730,0.713,0.735
+NLTK NB,English,Qualitative,0.750,,,
